@@ -16,7 +16,8 @@ function Herosection() {
           </div>
           <a href='sd'className='active'>Home</a>
           <a href='sd'className='active'>About</a>
-          
+          <a href='sd'className='active'>Pricing</a>
+          <a href='sd'className='active'>Contact</a> 
          <BsSearch className='search' />
          <RxHamburgerMenu className='hamburger'/>
         </div>
