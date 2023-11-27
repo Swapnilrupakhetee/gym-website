@@ -8,6 +8,7 @@ import '../../styles/herosection.css';
 function Herosection() {
   const [button, setButton] = useState(true);
   const [ham, setHam] = useState(false); // Set initial state to false
+  
 
   const setbutton = () => {
     setButton(!button);
@@ -45,7 +46,7 @@ function Herosection() {
                   <BsSearch className='search' />
                 </>
               )
-            ) : <p>sadsa</p>}
+            ) : <p></p>}
           </>
         </div>
       </div>
