@@ -31,6 +31,7 @@ nav a{
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
     font-size: 25px;
+    transition: 0.5s ease-in;
 
 }
 .navs{
@@ -43,7 +44,8 @@ nav a{
 
 }
 nav a:hover{
-    color: var(--secondaryColor);
+    color: #c08383;
+    transition: 0.5s ease-in;
 }
 header .nav-btn{
     padding: 5px;
@@ -96,19 +98,24 @@ header .nav-btn{
     nav a{
         font-size: 1rem;
     }
+    .hero-text h1{
+        font-size: 4rem;
+    }
+    
 
     
 
 }
 /*Hero section*/
 .hero {
-    height: 150vh;
+    height: 100vh;
     background-image: url('../assets/images/background.jpg');
     background-position: center top; /* Center horizontally, align to the top vertically */
     background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
+    
   }
   
   
@@ -116,4 +123,35 @@ header .nav-btn{
     display: flex;
     position: fixed;
     padding: 5rem;
+    
+}
+.hero-text{
+    color: rgb(252, 71, 71);
+    text-shadow: 2px 2px #000000;
+    font-weight: 700;
+    font-size: 4rem;
+    text-align: center;
+
+}
+.hero-button{
+    cursor: pointer;
+    text-shadow: none;
+    font-weight: 800;
+    margin: 0 auto;
+    color: #ffffff;
+    width: fit-content;
+    
+    padding: 1rem;
+    font-size: 2rem;
+    border: none;
+    border-radius: 10px;
+    transition: 0.3s ease-in;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.hero-button:hover{
+    transition: 0.3s ease-in;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.856);
+
 }

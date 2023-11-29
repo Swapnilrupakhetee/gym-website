@@ -32,7 +32,10 @@ function Navbar() {
     </header>
     <div className='hero'>
       <div className='hero-text'>
-        
+        <h1>CONQUER</h1>
+        <div className='hero-button'>
+          EXPLORE
+        </div>
       </div>
 
     </div>
