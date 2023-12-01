@@ -134,14 +134,21 @@ header .nav-btn{
     padding: 5rem;
     
 }
-.hero-text{
+.moto{
+    cursor: pointer;
     color: rgb(252, 71, 71);
     text-shadow: 2px 2px #000000;
     font-weight: 700;
-    font-size: 4rem;
+    font-size: 8rem;
     text-align: center;
+    transition: 1s ease-in;
 
 }
+.moto:hover{
+    transform: scale(1.1);
+}
+
+
 .hero-button{
     cursor: pointer;
     text-shadow: none;
