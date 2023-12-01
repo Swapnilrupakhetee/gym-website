@@ -1,22 +1,116 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 .about-container{
+    
     padding-top: 4rem;
-    height: 200vh;
+    height: fit-content;
     background-color: black;
     color: white;
     display: flex;
 }
 .about-content{
-    display: flex;
+   
    
     width: 100%;
 }
 .items{
-    display: flex;
+    margin: 0 auto;
     width: 100%;
     justify-content: center;
     
 }
 .item-title{
+    text-align: center;
     font-size: 30px;
+    padding: 2rem;
+}
+.info-icon{
+    fill: white;
+    font-size: 45px;
+    text-align: center;
+    
+}
+.content-about{
+    display: flex;
+    width: 100%;
+    
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.about-text {
+    display: flex;
+    flex-direction: column;
+    
+    
+    flex-wrap: wrap;
+    padding-left: 1rem;
+    padding-right: 3rem;
+    width: 50%;
+    align-content: flex-end;
+}
+.about-text h1{
+    padding-bottom: 2rem;
+    text-align: center;
+}
+.about-text p{
+    text-align: center;
+    padding-bottom: 3rem;
+}
+.about-image{
+    padding: 1rem;
+    border-radius: 10px;
+    
+    display: flex;
+    width: 50%;
+    
+}
+.about-image img{
+    
+    width: 400px;
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
+    transition: 0.4s ease-in;
+}
+.about-image img:hover{
+    box-shadow: 0 0 20px rgba(255, 217, 0, 0.829);
+    transform: scale(1.01);
+    transition: 0.4s ease-in;
+
+}
+.about-button{
+    cursor: pointer;
+    margin: 0 auto;
+    height: 30px;
+    width: 100px;
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(241, 52, 52);
+    border-radius: 10px;
+    transition: 0.5s ease-in-out;
+}
+.about-button:hover{
+    margin: 0 auto;
+    height: 30px;
+    width: 100px;
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(252, 0, 0);
+    border-radius: 0px;
+    transition: 0.5s ease-in-out;
+    transform: scale(1.1);
+}
+@media only screen and (max-width: 700px){
+    .content-about {
+        display: flex;
+        flex-direction: column;
+    }
+    .about-text{
+        width: 100%;
+    }
+    .about-image{
+        padding-top: 1rem;
+        justify-content: center;
+        width: 100%;
+    }
+
 }

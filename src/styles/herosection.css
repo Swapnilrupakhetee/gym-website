@@ -32,6 +32,8 @@ nav a{
     font-family: 'Poppins', sans-serif;
     font-size: 25px;
     transition: 0.5s ease-in;
+    background-color: rgba(0, 0, 0, 0)38, 57, 57;
+    border-radius: 10px;
 
 }
 .navs{
@@ -61,6 +63,7 @@ header .nav-btn{
 @media only screen and (max-width: 700px){
     header{
         position: fixed;
+        background-color: transparent;
     }
     h2{
         display: flex;
@@ -112,12 +115,15 @@ header .nav-btn{
 /*Hero section*/
 .hero {
     height: 100vh;
+    
     background-image: url('../assets/images/background.jpg');
     background-position: center top; /* Center horizontally, align to the top vertically */
     background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
+    
+    
     
   }
   
