@@ -68,12 +68,12 @@
 .about-image img{
     
     width: 400px;
-    box-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
+    
     transition: 0.4s ease-in;
 }
 .about-image img:hover{
-    box-shadow: 0 0 20px rgba(255, 217, 0, 0.829);
-    transform: scale(1.01);
+    box-shadow: 0 0 3px rgba(255, 217, 0, 0.829);
+    
     transition: 0.4s ease-in;
 
 }
@@ -106,11 +106,20 @@
     }
     .about-text{
         width: 100%;
+        align-content: center;
     }
     .about-image{
-        padding-top: 1rem;
+        padding-top: 2rem;
         justify-content: center;
         width: 100%;
+        
+    }
+    .about-button{
+        width: 200px;
+
+    }
+    .about-image img{
+        box-shadow: none;
     }
 
 }
