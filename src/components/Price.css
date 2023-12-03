@@ -31,9 +31,10 @@
 .pricing-container{
     display: flex;
     justify-content: center;
-    gap: 1rem;
+    
 }
 .price-tier{
+    text-align: center;
     color: white;
     padding: 1rem;
     font-weight: 700;
@@ -41,9 +42,38 @@
 }
 .dollar{
     fill: rgb(110, 218, 110);
-    font-size: 25px;
+    font-size: 50px;
     
 }
-.dollar p{
-    font-size: 40px;
+.pricing-container p{
+    font-size: 45px;
+    color: greenyellow;
+}
+.price-options h5{
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    color: rgba(207, 206, 206, 0.897);
+    padding-bottom: 1rem;
+}
+.stuff{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    padding-top: 5px;
+    text-align: center;
+    color: white;
+    text-align:justify;
+    
+}
+.stuffs{
+    display: flex;
+    gap: 5px;
+    padding-top: 5px;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    text-decoration: line-through;
+
+
 }
