@@ -1,5 +1,49 @@
 .price-container{
     width: 100%;
     display: flex;
+    justify-content: center;
     height: fit-content;
+    gap: 1rem;
+    
+    flex-wrap: wrap;
+}
+.price-options{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    min-width: 260px;
+    height: 300px;
+    background-color: rgb(114, 113, 113);
+    flex-wrap: wrap;
+    border-radius: 10px;
+    
+    
+}
+.pricing-title{
+    text-align: center;
+    color: white;
+    padding: 2rem;
+}
+.price{
+    background-color: black;
+    padding: 7rem;
+}
+.pricing-container{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.price-tier{
+    color: white;
+    padding: 1rem;
+    font-weight: 700;
+    height: fit-content;
+}
+.dollar{
+    fill: rgb(110, 218, 110);
+    font-size: 25px;
+    
+}
+.dollar p{
+    font-size: 40px;
 }
