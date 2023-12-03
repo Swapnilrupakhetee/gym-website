@@ -1,0 +1,5 @@
+.price-container{
+    width: 100%;
+    display: flex;
+    height: fit-content;
+}

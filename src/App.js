@@ -2,6 +2,7 @@
 import './App.css';
 import About from './components/About';
 import Herosection from './components/Herosection.jsx/Herosection';
+import Price from './components/Price';
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <div className="App">
       <Herosection/>
       <About/>
+      <Price/>
       
     </div>
   );
