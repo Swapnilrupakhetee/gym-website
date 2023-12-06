@@ -47,7 +47,7 @@ nav a{
 }
 .background{
     width: 100%;
-    background-color: #1d1b1b;
+    background-color: #1d1b1be3;
     position: fixed;
 }
 nav a:hover{
