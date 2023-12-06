@@ -19,6 +19,9 @@ function Price() {
             <div className='stuff'><CiCircleCheck />Swimming pool</div>
             <div className='stuffs'><CiCircleCheck />Unlimited sauna</div>
             <div className='stuffs'><CiCircleCheck />free WiFi</div>
+            <div className='buy-btn'>
+              BUY NOW
+            </div>
 
         </div>
         <div className='price-options'>
@@ -30,6 +33,12 @@ function Price() {
             <div className='stuff'><CiCircleCheck />Swimming pool</div>
             <div className='stuffs'><CiCircleCheck />Unlimited sauna</div>
             <div className='stuffs'><CiCircleCheck />free WiFi</div>
+            <div className='btn-container'>
+              
+            </div>
+            <div className='buy-btn'>
+              BUY NOW
+            </div>
             
         </div>
         <div className='price-options'>
@@ -41,6 +50,9 @@ function Price() {
             <div className='stuff'><CiCircleCheck />Swimming pool</div>
             <div className='stuff'><CiCircleCheck />Unlimited sauna</div>
             <div className='stuff'><CiCircleCheck />free WiFi</div>
+            <div className='buy-btn'>
+              BUY NOW
+            </div>
             
         </div>
     </div>

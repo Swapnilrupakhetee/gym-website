@@ -17,7 +17,7 @@ function About() {
                              fitness goals using a sustainable method<br/>
                              to improve their overall health</p>
                              <div className='about-button'>
-                        BUY NOW
+                       <p>BUY NOW</p> 
                     </div>
                     </div>
                     <div className='about-image'>
