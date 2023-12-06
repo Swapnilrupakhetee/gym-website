@@ -105,8 +105,19 @@
         display: flex;
         flex-direction: column;
     }
+    .item-title{
+        font-size: 30px;
+    }
+    .about-text h1{
+        font-size: 20px;
+    }
+    .info-icon{
+        font-size: 30px;
+    }
     .about-text{
         width: 100%;
+        padding-left:0;
+        padding-right: 0;
         align-content: center;
     }
     .about-image{

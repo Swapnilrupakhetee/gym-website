@@ -1,3 +1,61 @@
 .newsletter-container{
-    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    background-color: rgb(58, 58, 58);
+    width: 100%;
+    height: fit-content;
+    padding: 1rem;
+    overflow: hidden;
+    color: white;
+}
+.newsletter-left{
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.newsletter-left p{
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    font-size: 2rem;
+    overflow: hidden;
+}
+.newsletter-right{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    
+}
+.newsletter-right input{
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    outline: none;
+    border: 2px solid white;
+    transition: 0.4s ease-in-out;
+    overflow: hidden;
+}
+.newsletter-right input:focus{
+    box-shadow: 2px 2px 2px black;
+    transition: 0.4s ease-in-out;
+}
+.subscribe-btn{
+    box-shadow: -6px 6px 3px 2px rgba(0, 0, 0, 0.329);
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: rgb(122, 62, 62);
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+    overflow: visible;
+}
+.subscribe-btn:hover{
+    transition: 0.4s ease-in-out;
+    transform: scale(1.03);
+    background-color: rgb(204, 70, 70);
 }

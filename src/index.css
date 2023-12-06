@@ -8,9 +8,11 @@
     font-style: normal;
     
     
+    
 
 }
 .App
 {
     background-color: black;
+    overflow-x: hidden;
 }
