@@ -1,6 +1,7 @@
 
 import './App.css';
 import About from './components/About';
+import Footer from './components/Footer';
 import Herosection from './components/Herosection.jsx/Herosection';
 import Newsletter from './components/Newsletter';
 import Price from './components/Price';
@@ -13,6 +14,7 @@ function App() {
       <About/>
       <Price/>
       <Newsletter/>
+      <Footer/>
     </div>
   );
 }
