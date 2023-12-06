@@ -38,12 +38,17 @@ nav a{
 }
 .navs{
     display: flex;
-    position: fixed;
+    
     justify-content: center;
     align-items: center;
     gap: 2rem;
     
 
+}
+.background{
+    width: 100%;
+    background-color: #1d1b1b;
+    position: fixed;
 }
 nav a:hover{
     color: #c08383;
